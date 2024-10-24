@@ -27,7 +27,7 @@ python extract-sass-snapshots.py --help
 python extract-wayback-machine-snapshots.py --help
 ```
 
-If you run `python extract-wayback-machine-snapshots.py -o data` it will stract downloading snapshots on the `data/` folder.
+If you run `python extract-wayback-machine-snapshots.py -o data` it will extract downloading snapshots on the `data/` folder.
 
 The list of SaaS is hardcoded into the script. This is the list:
 
