@@ -1,0 +1,235 @@
+/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py:72: DeprecationWarning: headless property is deprecated, instead use add_argument('-headless')
+  options.headless = True
+Found 7 snapshots for 2020.
+Found 45 snapshots for 2021.
+Found 14 snapshots for 2022.
+Found 29 snapshots for 2023.
+Found 27 snapshots for 2024.
+Found 43 snapshots.
+  0%|          | 0/43 [00:00<?, ?it/s] 23%|██▎       | 10/43 [00:45<02:29,  4.53s/it] 26%|██▌       | 11/43 [01:05<03:29,  6.55s/it] 28%|██▊       | 12/43 [01:31<04:51,  9.41s/it]Snapshot https://web.archive.org/web/20200317/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20200815/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20201026/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20201101/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20201203/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20210117/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20210307/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20210414/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20210502/https://slack.com/terms-of-service/user already exists.
+Error fetching snapshot https://web.archive.org/web/20210607/https://slack.com/terms-of-service/user.
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//web.archive.org/web/20210702002747/https%3A//slack.com/terms-of-service/user&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:343:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+
+Error fetching snapshot https://web.archive.org/web/20210702/https://slack.com/terms-of-service/user.
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//web.archive.org/web/20210702002747/https%3A//slack.com/intl/en-pt/terms-of-service/user&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:343:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+
+Error fetching snapshot https://web.archive.org/web/20210802/https://slack.com/terms-of-service/user.
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//web.archive.org/web/20210702002747/https%3A//slack.com/terms-of-service/user&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:343:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+
+Error fetching snapshot https://web.archive.org/web/20210906/https://slack.com/terms-of-service/user.
+ 30%|███       | 13/43 [02:03<06:43, 13.45s/it] 33%|███▎      | 14/43 [02:38<08:35, 17.77s/it] 35%|███▍      | 15/43 [03:04<09:09, 19.63s/it] 37%|███▋      | 16/43 [04:01<12:58, 28.83s/it]Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//web.archive.org/web/20210702002747/https%3A//slack.com/terms-of-service/user&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:343:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+
+Error fetching snapshot https://web.archive.org/web/20211005/https://slack.com/terms-of-service/user.
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//web.archive.org/web/20210702002747/https%3A//slack.com/terms-of-service/user&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:343:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+
+Error fetching snapshot https://web.archive.org/web/20211108/https://slack.com/terms-of-service/user.
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//web.archive.org/web/20210702002747/https%3A//slack.com/terms-of-service/user&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:343:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+
+Error fetching snapshot https://web.archive.org/web/20211201/https://slack.com/terms-of-service/user.
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//web.archive.org/web/20210702002747/https%3A//slack.com/terms-of-service/user&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:343:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+
+Error fetching snapshot https://web.archive.org/web/20220322/https://slack.com/terms-of-service/user.
+ 40%|███▉      | 17/43 [04:30<12:31, 28.90s/it]100%|██████████| 43/43 [05:17<00:00,  4.34s/it]100%|██████████| 43/43 [05:17<00:00,  7.37s/it]
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=redirectLoop&u=https%3A//web.archive.org/web/20210702002747/https%3A//slack.com/terms-of-service/user&c=UTF-8&d=Firefox%20has%20detected%20that%20the%20server%20is%20redirecting%20the%20request%20for%20this%20address%20in%20a%20way%20that%20will%20never%20complete.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:343:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+
+Snapshot https://web.archive.org/web/20220516/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20220630/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20220701/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20220829/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20220901/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20221005/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20221206/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20230128/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20230302/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20230406/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20230524/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20230602/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20230719/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20230816/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20230911/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20231004/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20231127/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20231208/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20240105/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20240205/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20240304/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20240401/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20240505/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20240610/https://slack.com/terms-of-service/user already exists.
+Snapshot https://web.archive.org/web/20240703/https://slack.com/terms-of-service/user already exists.

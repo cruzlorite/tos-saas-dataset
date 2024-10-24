@@ -1,0 +1,43 @@
+/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py:72: DeprecationWarning: headless property is deprecated, instead use add_argument('-headless')
+  options.headless = True
+Found 41 snapshots for 2020.
+Found 69 snapshots for 2021.
+Found 26 snapshots for 2022.
+Found 10 snapshots for 2023.
+Found 6 snapshots for 2024.
+Found 45 snapshots.
+  0%|          | 0/45 [00:00<?, ?it/s] 20%|██        | 9/45 [00:54<03:38,  6.07s/it] 80%|████████  | 36/45 [01:55<00:26,  2.97s/it] 82%|████████▏ | 37/45 [02:57<00:43,  5.42s/it] 84%|████████▍ | 38/45 [04:19<01:07,  9.67s/it] 87%|████████▋ | 39/45 [04:58<01:10, 11.82s/it] 89%|████████▉ | 40/45 [05:28<01:07, 13.49s/it] 91%|█████████ | 41/45 [06:01<01:03, 15.89s/it] 93%|█████████▎| 42/45 [06:46<01:00, 20.17s/it] 96%|█████████▌| 43/45 [07:16<00:43, 21.72s/it] 98%|█████████▊| 44/45 [07:47<00:23, 23.69s/it]100%|██████████| 45/45 [08:19<00:00, 25.51s/it]100%|██████████| 45/45 [08:19<00:00, 11.11s/it]
+Snapshot https://web.archive.org/web/20200318/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20200401/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20200512/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20200613/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20200714/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20200805/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20200914/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20201004/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20201201/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20210103/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20210211/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20210302/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20210413/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20210503/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20210604/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20210713/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20210802/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20210902/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20211005/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20211102/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20211201/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20220106/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20220201/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20220305/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20220403/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20220501/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20220614/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20220727/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20220824/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20221001/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20230219/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20230314/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20230405/https://www.tableau.com/tos already exists.
+Snapshot https://web.archive.org/web/20230509/https://www.tableau.com/tos already exists.

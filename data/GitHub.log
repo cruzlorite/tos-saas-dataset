@@ -1,0 +1,58 @@
+/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py:72: DeprecationWarning: headless property is deprecated, instead use add_argument('-headless')
+  options.headless = True
+Found 95 snapshots for 2020.
+Found 354 snapshots for 2021.
+Found 364 snapshots for 2022.
+Found 250 snapshots for 2023.
+Found 85 snapshots for 2024.
+Found 50 snapshots.
+  0%|          | 0/50 [00:00<?, ?it/s] 90%|█████████ | 45/50 [00:42<00:04,  1.05it/s]100%|██████████| 50/50 [00:42<00:00,  1.17it/s]
+Snapshot https://web.archive.org/web/20200701/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20200801/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20200901/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20201001/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20201102/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20201205/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20210104/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20210201/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20210301/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20210401/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20210501/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20210601/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20210701/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20210801/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20210901/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20211001/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20211101/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20211201/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220101/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220201/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220301/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220401/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220501/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220601/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220701/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220801/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220901/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20221001/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20221101/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20221201/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230101/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230201/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230305/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230402/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230506/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230601/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230704/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230801/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230901/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20231001/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20231101/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20231201/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240101/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240201/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240402/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240502/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240604/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240705/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240808/https://docs.github.com/en/github/site-policy/github-terms-of-service already exists.

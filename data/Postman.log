@@ -1,0 +1,24 @@
+/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py:72: DeprecationWarning: headless property is deprecated, instead use add_argument('-headless')
+  options.headless = True
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 82, in <module>
+    year_snapshots = wayback_machine_snapshots(driver, args.url, year)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 22, in wayback_machine_snapshots
+    driver.get(wayback_machine_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//web.archive.org/web/20200101000000*/https%3A//www.postman.com/legal/terms/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20web.archive.org.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:832:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:343:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+

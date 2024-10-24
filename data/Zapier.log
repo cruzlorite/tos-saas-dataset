@@ -1,0 +1,27 @@
+/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py:72: DeprecationWarning: headless property is deprecated, instead use add_argument('-headless')
+  options.headless = True
+Found 0 snapshots for 2020.
+Found 0 snapshots for 2021.
+Found 5 snapshots for 2022.
+Found 13 snapshots for 2023.
+Found 10 snapshots for 2024.
+Found 18 snapshots.
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 126249.95it/s]
+Snapshot https://web.archive.org/web/20220323/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220522/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20220621/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20221013/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230109/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230313/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230404/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230514/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230817/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20230914/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20231110/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20231212/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240130/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240207/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240302/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240425/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240619/https://zapier.com/legal/terms-of-service already exists.
+Snapshot https://web.archive.org/web/20240715/https://zapier.com/legal/terms-of-service already exists.

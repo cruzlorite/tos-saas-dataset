@@ -1,0 +1,51 @@
+/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py:72: DeprecationWarning: headless property is deprecated, instead use add_argument('-headless')
+  options.headless = True
+Found 15 snapshots for 2020.
+Found 10 snapshots for 2021.
+Found 10 snapshots for 2022.
+Found 14 snapshots for 2023.
+Found 12 snapshots for 2024.
+Found 41 snapshots.
+  0%|          | 0/41 [00:00<?, ?it/s]  2%|▏         | 1/41 [01:05<43:28, 65.20s/it]  5%|▍         | 2/41 [02:00<38:27, 59.16s/it]  7%|▋         | 3/41 [03:05<39:21, 62.14s/it] 10%|▉         | 4/41 [04:28<43:18, 70.24s/it] 12%|█▏        | 5/41 [05:08<35:42, 59.51s/it] 15%|█▍        | 6/41 [06:00<33:03, 56.66s/it] 17%|█▋        | 7/41 [06:44<29:55, 52.81s/it] 20%|█▉        | 8/41 [07:13<24:44, 44.97s/it] 22%|██▏       | 9/41 [08:03<24:52, 46.66s/it] 24%|██▍       | 10/41 [08:52<24:28, 47.36s/it] 27%|██▋       | 11/41 [09:30<22:18, 44.62s/it] 29%|██▉       | 12/41 [10:10<20:51, 43.15s/it] 32%|███▏      | 13/41 [10:50<19:42, 42.25s/it] 34%|███▍      | 14/41 [11:59<22:38, 50.30s/it] 37%|███▋      | 15/41 [12:44<21:07, 48.75s/it] 39%|███▉      | 16/41 [13:25<19:13, 46.15s/it] 41%|████▏     | 17/41 [14:09<18:18, 45.77s/it] 44%|████▍     | 18/41 [14:50<16:59, 44.35s/it] 46%|████▋     | 19/41 [15:39<16:44, 45.64s/it] 49%|████▉     | 20/41 [16:19<15:19, 43.78s/it] 51%|█████     | 21/41 [17:17<16:06, 48.34s/it] 54%|█████▎    | 22/41 [18:13<15:58, 50.47s/it] 56%|█████▌    | 23/41 [23:14<37:40, 125.58s/it] 59%|█████▊    | 24/41 [27:33<46:56, 165.65s/it] 61%|██████    | 25/41 [30:58<47:20, 177.51s/it] 63%|██████▎   | 26/41 [33:13<41:09, 164.61s/it] 66%|██████▌   | 27/41 [34:21<31:42, 135.91s/it] 68%|██████▊   | 28/41 [39:05<39:01, 180.08s/it] 71%|███████   | 29/41 [41:39<34:26, 172.23s/it] 73%|███████▎  | 30/41 [42:27<24:45, 135.03s/it] 76%|███████▌  | 31/41 [20:50:33<60:40:08, 21840.81s/it] 78%|███████▊  | 32/41 [20:51:29<38:15:46, 15305.12s/it] 80%|████████  | 33/41 [20:52:25<23:50:42, 10730.33s/it] 83%|████████▎ | 34/41 [20:53:10<14:37:54, 7524.93s/it]  85%|████████▌ | 35/41 [20:57:54<8:55:14, 5352.47s/it]  88%|████████▊ | 36/41 [20:58:35<5:13:15, 3759.18s/it] 90%|█████████ | 37/41 [20:59:15<2:56:13, 2643.36s/it] 93%|█████████▎| 38/41 [20:59:56<1:33:07, 1862.66s/it] 95%|█████████▌| 39/41 [21:00:41<43:54, 1317.21s/it]   98%|█████████▊| 40/41 [21:01:21<15:34, 934.30s/it] 100%|██████████| 41/41 [21:02:00<00:00, 665.57s/it]100%|██████████| 41/41 [21:02:00<00:00, 1846.84s/it]
+Error fetching snapshot https://web.archive.org/web/20221108/https://databox.com/terms-of-service.
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Navigation timed out after 300000 ms
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+TimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:740:5
+bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
+
+
+Error fetching snapshot https://web.archive.org/web/20230803/https://databox.com/terms-of-service.
+Traceback (most recent call last):
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 100, in <module>
+    html_content = wayback_machine_fetch_snapshot(driver, snapshot)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py", line 38, in wayback_machine_fetch_snapshot
+    driver.get(snapshot_url)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/jmcruz/anaconda3/envs/tos_crawler/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Navigation timed out after 300000 ms
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+TimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:740:5
+bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
+
+

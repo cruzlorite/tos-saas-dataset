@@ -1,0 +1,65 @@
+/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py:76: DeprecationWarning: headless property is deprecated, instead use add_argument('-headless')
+  options.headless = True
+Found 90 snapshots for 2020.
+Found 78 snapshots for 2021.
+Found 110 snapshots for 2022.
+Found 89 snapshots for 2023.
+Found 85 snapshots for 2024.
+Found 56 snapshots.
+  0%|          | 0/56 [00:00<?, ?it/s]100%|██████████| 56/56 [00:00<00:00, 88168.55it/s]
+Snapshot https://web.archive.org/web/20200107/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20200204/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20200303/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20200405/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20200503/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20200602/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20200702/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20200804/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20200901/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20201001/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20201104/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20201203/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20210101/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20210202/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20210302/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20210410/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20210502/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20210606/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20210701/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20210806/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20210904/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20211004/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20211102/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20211204/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20220104/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20220202/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20220302/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20220401/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20220505/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20220601/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20220701/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20220806/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20220901/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20221002/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20221106/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20221204/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20230103/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20230206/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20230301/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20230402/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20230503/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20230601/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20230714/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20230804/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20230901/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20231007/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20231104/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20231202/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20240107/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20240202/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20240319/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20240402/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20240503/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20240603/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20240706/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.
+Snapshot https://web.archive.org/web/20240801/https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/ already exists.

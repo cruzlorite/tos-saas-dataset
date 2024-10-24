@@ -1,0 +1,13 @@
+/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py:72: DeprecationWarning: headless property is deprecated, instead use add_argument('-headless')
+  options.headless = True
+Found 0 snapshots for 2020.
+Found 0 snapshots for 2021.
+Found 1 snapshots for 2022.
+Found 3 snapshots for 2023.
+Found 0 snapshots for 2024.
+Found 4 snapshots.
+  0%|          | 0/4 [00:00<?, ?it/s]100%|██████████| 4/4 [00:00<00:00, 46995.00it/s]
+Snapshot https://web.archive.org/web/20220519/https://mailchimp.com/en/legal/terms/ already exists.
+Snapshot https://web.archive.org/web/20230306/https://mailchimp.com/en/legal/terms/ already exists.
+Snapshot https://web.archive.org/web/20230402/https://mailchimp.com/en/legal/terms/ already exists.
+Snapshot https://web.archive.org/web/20230510/https://mailchimp.com/en/legal/terms/ already exists.

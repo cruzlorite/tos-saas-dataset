@@ -1,0 +1,55 @@
+/home/jmcruz/GitHub/tos-dataset-saas/extract-wayback-machine-snapshots.py:72: DeprecationWarning: headless property is deprecated, instead use add_argument('-headless')
+  options.headless = True
+Found 54 snapshots for 2020.
+Found 85 snapshots for 2021.
+Found 60 snapshots for 2022.
+Found 26 snapshots for 2023.
+Found 49 snapshots for 2024.
+Found 56 snapshots.
+  0%|          | 0/56 [00:00<?, ?it/s] 84%|████████▍ | 47/56 [01:29<00:17,  1.90s/it] 86%|████████▌ | 48/56 [02:47<00:33,  4.15s/it] 88%|████████▊ | 49/56 [04:10<00:51,  7.34s/it] 89%|████████▉ | 50/56 [05:06<01:00, 10.01s/it] 91%|█████████ | 51/56 [05:55<01:04, 12.82s/it] 93%|█████████▎| 52/56 [06:47<01:05, 16.46s/it] 95%|█████████▍| 53/56 [07:35<01:00, 20.25s/it] 96%|█████████▋| 54/56 [08:31<00:50, 25.30s/it] 98%|█████████▊| 55/56 [09:10<00:27, 27.73s/it]100%|██████████| 56/56 [09:59<00:00, 31.89s/it]100%|██████████| 56/56 [09:59<00:00, 10.71s/it]
+Snapshot https://web.archive.org/web/20200102/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20200206/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20200328/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20200426/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20200503/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20200610/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20200709/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20200805/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20200916/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20201003/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20201103/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20201202/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20210101/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20210202/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20210303/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20210401/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20210501/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20210604/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20210701/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20210802/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20210902/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20211004/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20211102/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20211201/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20220111/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20220221/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20220307/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20220401/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20220507/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20220604/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20220703/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20220801/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20220905/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20221004/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20221101/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20221206/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20230127/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20230207/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20230306/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20230402/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20230501/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20230601/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20230701/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20230801/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20230903/https://www.wrike.com/security/terms/ already exists.
+Snapshot https://web.archive.org/web/20231014/https://www.wrike.com/security/terms/ already exists.
