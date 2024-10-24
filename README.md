@@ -2,6 +2,8 @@
 
 In this repository you can find two scipts used to automatically extract a dataset of snapshots for online webs, extracted from Internet Archive, better known as The Wayback Machine.
 
+This repository include a dataset with snapshots of the Terms of Services of 27 online SaaS providers
+
 ## Dependencies
 
 The only dependencies are:
